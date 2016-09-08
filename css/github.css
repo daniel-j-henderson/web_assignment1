@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "typewriter";
+    src: url(../fonts/typewriter.ttf);
+}
+
+body {
+  background-image: url("../img/paper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 0px;
+}
+
+
+.letter {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.letter p {
+  /*position: relative;*/
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  text-align: left;
+  font-size: 30px;
+  font-family: "typewriter";
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.6)
+}
+
+
+.heart {
+  float: left;
+  width: 300px;
+  margin-top: 12%;
+  margin-left:140px;
+  height: inherit;
+}
+
+ul li {
+  font-family: serif;
+  font-size: 20px;
+}
+
+.heart img {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: auto;
+  height: auto;
+  opacity: 0.2;
+}
+
+.title header {
+  text-align: center;
+  font-size: 60px;
+  font-family: "typewriter";
+}
+
+.title p {
+  margin: 0px;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title a {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 100px;
+  height: auto;
+}
+
+.title img:hover {
+  opacity: .2;
+}
+
+.title img {
+  opacity: .8;
+  width: 100px;
+  height: auto;
+}

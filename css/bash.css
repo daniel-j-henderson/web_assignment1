@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Gotham XNarrow";
+    src: url(../fonts/Gotham/GothamXNarrow-Medium.otf);
+}
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url(../fonts/Gotham/GothamLight.otf);
+}
+
+@font-face {
+    font-family: "Gotham Ultra";
+    src: url(../fonts/Gotham/GothamUltra.otf);
+}
+
+body {
+
+
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Gotham Ultra";
+  color: rgba(209, 48, 48, 1);
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: "Gotham-Light";
+  font-size: 24px;
+  color: rgba(200, 145, 53, 1);
+  margin-top: 10px;
+}
+
+p {
+  float: right;
+  margin-top: 30%;
+  font-family: "Gotham XNarrow";
+  font-size: 16px;
+  color: rgb(252, 234, 210);
+  background-color: rgba(48, 36, 36, 0.5);
+  padding: 10px;
+}
+
+.container {
+  float: left;
+  padding: 20px;
+  background-color: rgba(48, 36, 36, 0.5);
+}
